@@ -1,3 +1,4 @@
+using DairyDemo.Auth.Data;
 using DairyDemo.Auth.Data.Models;
 using DairyDemo.Auth.Services;
 using DairyDemo.Auth.UI.Controls;
@@ -199,14 +200,5 @@ public class LoginForm : Form
     {
         base.OnFormClosing(e);
         // Не закрываем приложение полностью, если открыты другие формы
-    }
-}
-
-// Временный класс Db для совместимости
-public static class Db
-{
-    public static Data.Models.User? GetUserByLogin(string login)
-    {
-        return DairyDemo.Auth.Data.Db.GetUserByLogin(login);
     }
 }
