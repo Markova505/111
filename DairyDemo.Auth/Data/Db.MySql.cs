@@ -6,8 +6,8 @@ namespace DairyDemo.Auth.Data;
 
 public static class Db
 {
-    private static readonly string ConnectionString = 
-        "Server=localhost;Database=dairy_auth;Uid=root;Pwd=;SslMode=none;";
+    private static readonly string ConnectionString =
+        "Server=localhost;Database=dairy_auth;Uid=Mark;Pwd=Password_Password;SslMode=none;";
 
     // Инициализация БД (создание таблицы и тестовых данных)
     public static void Initialize()

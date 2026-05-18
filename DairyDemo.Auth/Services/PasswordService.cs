@@ -1,7 +1,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace DairyDemo.Auth.Data;
+namespace DairyDemo.Auth.Services;
 
 public static class PasswordService
 {
