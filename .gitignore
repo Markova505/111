@@ -1,59 +1,78 @@
 ```
-# Build artifacts
+# Compiled and build artifacts
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.out
+*.so
+*.a
+*.class
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
 bin/
 obj/
-*.dll
-*.exe
-*.pdb
-*.config
+Debug/
+Release/
+x64/
+x86/
 
 # Dependencies
-packages/
 node_modules/
-*.nupkg
+vendor/
+packages/
+lib/
+deps/
 
 # Logs and temp files
 *.log
 *.tmp
+*.temp
+*.cache
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+.local
 
 # Editors
 .vscode/
 .idea/
-*.userprefs
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+target/
+out/
+_output/
+_coverage/
+htmlcov/
+.coverage
+.nyc_output/
+coverage/
+publish/
+
+# User-specific
+*.user
 *.userosscache
 *.suo
-*.user
-*.aps
-*.pch
-*.vspscc
-*.vssscc
-*.ncb
-*.opensdf
-*.sdf
-*.cachefile
-*.VC.db
-*.VC.VC.opendb
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
-
-# Testing
-TestResults/
-
-# User-specific files
+*.csproj.user
 *.userprefs
-*.userosscache
+
+# Windows
+$RECYCLE.BIN/
+Desktop.ini
+ehthumbs.db
+Icon?
 ```
